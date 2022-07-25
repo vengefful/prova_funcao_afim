@@ -38,9 +38,9 @@
 			\multirow{6}{*}{\includegraphics[scale=1]{lima_castro.png}} & \textbf{\university} & & \textbf{Nota}  \\ \cline{2-3}
 			& \textbf{Disciplina}: \course                & \textbf{Código}: \codeCourse{}          & \multirow{5}{*}{}                               \\ \cline{2-3}
 			& \textbf{Professor}: \prof{}             &                      &                                \\ \cline{2-3}
-			& \textbf{Bimestre}: \semester{}                         &                      &                                \\ \cline{2-3}
+			& \textbf{Bimestre}: \semester{}                         & \textbf{Turma}: \graduate                     &                                \\ \cline{2-3}
 			& \textbf{Discente}: \small{\student{}}                       & \textbf{Matrícula}: \registration{} &                                \\ \cline{2-3}
-			& \textbf{Turma}: \graduate{}                          &                      &                                \\ \hline
+			& \textbf{Assinatura}:                          &                      &                                \\ \hline
 		\end{tabular}
 	\end{table}
 
