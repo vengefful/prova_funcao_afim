@@ -2,16 +2,17 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
+\usepackage{amsfonts}
 
 %% Informations that will be insert in the table header 
 \def\course{Matemática}
 \def\prof{Fernando Jorge}
 \def\semester{2022.2}
 \def\codeCourse{MA1}
-\def\registration{\#ra\#}
-\def\student{\#aluno\#}
-\def\graduate{\#turma\#}
-\def\theme{\#tema\#}
+\def\registration{@ra@}
+\def\student{@aluno@}
+\def\graduate{@turma@}
+\def\theme{@tema@}
 
 \begin{document}
     %% Table with the header
@@ -38,25 +39,30 @@
     \vspace{1cm}
     
     \begin{question}
-        \item Sejam os conjuntos $A=\{1,3,5,7,9,11,13\}$ e $B=\{0,2,4,6,8,10,12\}$. Data a função $f:A \rightarrow B$, definida por $f(x) = x - 1$, determine o $D_{(f)}$, o $CD_{(f)}$, a $Im_{(f)}$ e construa o diagrama de flechas que representa essa função. \point{1.0}
+        \item Sejam os conjuntos @q1-A@ e @q1-B@. Dada a função $f:A \rightarrow B$, definida por @q1-function@, determine o $D_{(f)}$, o $CD_{(f)}$, a $Im_{(f)}$ e construa o diagrama de flechas que representa essa função. \point{1.0}
 
-        \item Um motorista de táxi cobra, em cada corrida, o valor fixo de R\$ $3,20$ mais R\$ $0,80$ por quilômetro rodado.
+        \item Um motorista de táxi cobra, em cada corrida, o valor fixo de R\$ @q2-fixo@ mais R\$ @q2-preco-km@ por quilômetro rodado.
         \begin{enumerate}[label=\alph*)]
         	\item Indicando por \textbf{x} o número de quilômetros rodados e por \textbf{P} o preço a pagar pela corrida, escreva a expressão que relaciona \textbf{P} com \textbf{x}. \points{0.30} 
-        	\item Determine o número máximo de quilômetros rodados para que, em uma corrida, o preço a ser pago não ultrapasse R\$ $120,00$. \points{0.35}
-        	\item Determine qual o valor pago por uma corrida de $17$ quilômetros. \points{0.35}
+        	\item Determine o número máximo de quilômetros rodados para que, em uma corrida, o preço a ser pago não ultrapasse R\$ @q2-preco-b@. \points{0.35}
+        	\item Determine qual o valor pago por uma corrida de @q2-km-c@ quilômetros. \points{0.35}
         \end{enumerate}
     	\item Construa no sistema cartesiano ortogonal o gráfico das funções afins dadas por:
     	\begin{enumerate}[label=\alph*)]
-    		\item $f(x) = 2x + 1$ \points{0.30}
-    		\item $g(x) = -x + 4$ \points{0.35}
-    		\item $h(x) = -2x$ \points{0.35}
+    		\item @q3-a@ \points{0.30}
+    		\item @q3-b@ \points{0.35}
+    		\item @q3-c@ \points{0.35}
     	\end{enumerate}
-    	\item Determine a lei da função do $1^\circ$ grau cuja reta passa pelos pontos A(-8,0) e B(0,4). Essa função é crescente ou decrescente? \point{1.0}
+    	\item Seja a função $f:\mathbb{R} \rightarrow \mathbb{R}$, definida por @q4-function@  \point{1.0}, responda:
+    	\begin{enumerate}[label=\alph*)]
+    		\item A função é crescente ou decrescente? \points{0.30}
+    		\item Qual o valor da função que intercepta o eixo das ordenadas (eixo y). \points{0.35}
+    		\item Qual a raiz da função. \points{0.35}
+    	\end{enumerate}
     	\item João ao perceber que seu carro apresentara um defeito e optou por alugar um veículo para cumprir seus compromissos de trabalho. A locadora, então, lhe apresentou duas propostas:
     	\begin{itemize}
-    		\item \textbf{Plano A}: É cobrado um valor fixo de R\$ 50,00 mais R\$ 1,60 por quilômetro rodado.
-    		\item \textbf{Plano B}: É cobrado um valor fixo de R\$ 64,00 mais R\$ 1,20 por quilômetro rodado. 
+    		\item \textbf{Plano A}: É cobrado um valor fixo de R\$ @q5-fixo-a@ mais R\$ @q5-km-a@ por quilômetro rodado.
+    		\item \textbf{Plano B}: É cobrado um valor fixo de R\$ @q5-fixo-b@ mais R\$ @q5-km-b@ por quilômetro rodado. 
     	\end{itemize}
     	João observou que, para certo deslocamento \textit{k} quilômetros, era indiferente escolher o \textbf{Plano A} ou \textbf{Plano B}, pois o valor final seria o mesmo. Qual valor de deslocamento em quilômetros é esse? \point{1.0}
     \end{question}

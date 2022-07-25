@@ -33,13 +33,13 @@
 \newcommand{\makeheader}{
 	\begin{table}[]
 		\fontsize{0.38cm}{0.5cm}\selectfont 
-		\begin{tabular}{|l|p{9cm}|p{5cm}|p{1.3cm}|}
+		\begin{tabular}{|l|p{10cm}|p{4cm}|p{1.3cm}|}
 			\hline
-			\multirow{6}{*}{\includegraphics[scale=1]{figures/lima_castro.png}} & \textbf{\university} & & \textbf{Nota}  \\ \cline{2-3}
+			\multirow{6}{*}{\includegraphics[scale=1]{lima_castro.png}} & \textbf{\university} & & \textbf{Nota}  \\ \cline{2-3}
 			& \textbf{Disciplina}: \course                & \textbf{Código}: \codeCourse{}          & \multirow{5}{*}{}                               \\ \cline{2-3}
 			& \textbf{Professor}: \prof{}             &                      &                                \\ \cline{2-3}
 			& \textbf{Bimestre}: \semester{}                         &                      &                                \\ \cline{2-3}
-			& \textbf{Discente}: \student{}                       & \textbf{Matrícula}: \registration{} &                                \\ \cline{2-3}
+			& \textbf{Discente}: \small{\student{}}                       & \textbf{Matrícula}: \registration{} &                                \\ \cline{2-3}
 			& \textbf{Turma}: \graduate{}                          &                      &                                \\ \hline
 		\end{tabular}
 	\end{table}
